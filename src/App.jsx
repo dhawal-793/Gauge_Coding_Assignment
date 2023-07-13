@@ -1,10 +1,11 @@
+import Hero from "./components/Hero"
 
 function App() {
 
   return (
-    <main>
-      Hello
-</main>
+    <main className="bg-white">
+      <Hero />
+    </main>
   )
 }
 
